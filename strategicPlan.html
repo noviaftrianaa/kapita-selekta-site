@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Strategic Plan</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .swot-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .swot-card {
+      padding: 15px;
+      border-radius: 10px;
+      background: #f9f9f9;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .swot-card h3 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+    .porter-diagram {
+      display: grid;
+      grid-template-areas: 
+        ". atas ."
+        "kiri tengah kanan"
+        ". bawah .";
+      gap: 10px;
+      margin: 30px 0;
+      text-align: center;
+    }
+    .porter-box {
+      padding: 15px;
+      background: #eef6ff;
+      border: 2px solid #3498db;
+      border-radius: 10px;
+    }
+    .atas { grid-area: atas; }
+    .bawah { grid-area: bawah; }
+    .kiri { grid-area: kiri; }
+    .kanan { grid-area: kanan; }
+    .tengah { grid-area: tengah; background: #3498db; color: white; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Business Strategic Plan</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="konsepDasar.html">Konsep Dasar</a>
+      <a href="kekuatan.html">Prioritas Internet</a>
+      <a href="opensource.html">Open Source</a>
+    </nav>
+  </header>
+
+<main>
+  <section>
+    <h2>Analisis SWOT</h2>
+    <p>
+      Analisis SWOT membantu memahami kekuatan, kelemahan, peluang, dan ancaman dalam menyusun strategi.
+      Berikut hasil analisis pribadi:
+    </p>
+    <div class="swot-grid">
+      <div class="swot-card">
+        <h3>Strengths</h3>
+        <ul>
+          <li>Penguasaan teknologi informasi</li>
+          <li>Semangat belajar tinggi</li>
+          <li>Kemampuan komunikasi</li>
+          <li>Pengalaman organisasi</li>
+        </ul>
+      </div>
+      <div class="swot-card">
+        <h3>Weaknesses</h3>
+        <ul>
+          <li>Keterbatasan pengalaman industri nyata</li>
+          <li>Keterbatasan modal finansial</li>
+          <li>Manajemen waktu masih perlu ditingkatkan</li>
+        </ul>
+      </div>
+      <div class="swot-card">
+        <h3>Opportunities</h3>
+        <ul>
+          <li>Pertumbuhan dunia digital</li>
+          <li>Kebutuhan tenaga IT semakin besar</li>
+          <li>Peluang kerja remote global</li>
+          <li>Dukungan pemerintah untuk startup</li>
+        </ul>
+      </div>
+      <div class="swot-card">
+        <h3>Threats</h3>
+        <ul>
+          <li>Persaingan global sangat ketat</li>
+          <li>Perubahan teknologi yang cepat</li>
+          <li>Ancaman keamanan data</li>
+          <li>Ketidakpastian ekonomi</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Porter’s Five Forces</h2>
+    <p>Model Porter membantu melihat daya saing dalam industri teknologi:</p>
+    <div class="porter-diagram">
+      <div class="porter-box atas">Ancaman Pendatang Baru<br><small>Banyak startup dengan modal kecil</small></div>
+      <div class="porter-box kiri">Daya Tawar Pemasok<br><small>Relatif rendah, banyak pilihan vendor</small></div>
+      <div class="porter-box tengah">Persaingan Industri<br><strong>Sangat Ketat</strong><br>Bidang digital & aplikasi</div>
+      <div class="porter-box kanan">Daya Tawar Pembeli<br><small>Tinggi, konsumen mudah berpindah</small></div>
+      <div class="porter-box bawah">Produk Substitusi<br><small>Tinggi, banyak aplikasi alternatif</small></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Rencana Strategis Pribadi</h2>
+    <p>
+      Berdasarkan analisis di atas, strategi yang saya pilih adalah diferensiasi berbasis kualitas layanan dan inovasi berkelanjutan. 
+      Saya akan fokus memperdalam keterampilan <em>cloud computing</em>, <em>data science</em>, dan pengembangan aplikasi berbasis web/mobile.
+    </p>
+    <p>
+      Selain itu, saya berkomitmen membangun portofolio proyek terbuka di GitHub dan berpartisipasi dalam komunitas open source, 
+      agar dapat membangun reputasi profesional dan memperluas jaringan. Dengan strategi ini, saya berharap lebih siap bersaing 
+      di dunia kerja maupun membangun usaha berbasis teknologi.
+    </p>
+  </section>
+</main>
+</body>
+</html>
